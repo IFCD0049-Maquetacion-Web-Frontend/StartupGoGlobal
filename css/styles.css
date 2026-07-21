@@ -81,3 +81,15 @@ ul {
     font-size: 1.5rem;
     color: var(--color-primary-dark);
 }
+
+/* Contenedor de menu */
+.menu {
+    display: flex;
+    gap: var(--space-md);
+}
+
+.menu a {
+    font-weight: 600;
+    color: var(--color-text-soft);
+    padding: var(--space-xs) 0;
+}
