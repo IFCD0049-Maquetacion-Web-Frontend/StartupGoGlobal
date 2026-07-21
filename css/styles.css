@@ -54,3 +54,9 @@ ul {
 
     --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
+
+/* Clase contenedora */
+.container {
+    width: min(100% - 32px, var(--max-width));
+    margin: 0 auto;
+}
