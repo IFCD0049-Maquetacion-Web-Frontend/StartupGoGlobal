@@ -93,3 +93,8 @@ ul {
     color: var(--color-text-soft);
     padding: var(--space-xs) 0;
 }
+
+/* Estado de los enlaces */
+.menu a:hover {
+    color: var(--color-primary);
+}
