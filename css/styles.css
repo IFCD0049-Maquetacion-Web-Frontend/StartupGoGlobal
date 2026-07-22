@@ -51,8 +51,11 @@ ul {
     --radius-sm: 8px;
     --radius-md: 16px;
     --radius-lg: 24px;
+    --radius-pill: 999px;
 
     --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+
+    
 }
 
 /* Clase contenedora */
@@ -228,4 +231,20 @@ button {
 
 button:hover {
     background-color: #ea580c;
+}
+
+.feature-card {
+    position: relative;
+}
+
+.badge {
+    position:absolute;
+    top: 16px;
+    right: 16px;
+    background-color: var(--color-accent);
+    color: white;
+    padding: 6px 10px;
+    border-radius: var(--radius-pill);
+    font-size: 0.8rem;
+    font-weight: 700;
 }
