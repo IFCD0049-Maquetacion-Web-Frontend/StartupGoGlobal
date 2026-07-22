@@ -208,3 +208,24 @@ textarea {
     border-radius: var(--radius-sm);
     font: inherit;
 }
+
+small {
+    display: block;
+    margin-top: var(--space-xs);
+    color: var(--color-text-soft);
+}
+
+button {
+    background-color: var(--color-accent);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius-sm);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ea580c;
+}
